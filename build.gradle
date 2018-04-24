@@ -1,0 +1,16 @@
+group 'DesignPattern-Demo'
+version '1.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.vertx:vertx-core:3.5.1'
+    compile 'io.vertx:vertx-web:3.5.1'
+    compile 'io.vertx:vertx-kafka-client:3.5.1'
+    compile 'io.vertx:vertx-rabbitmq-client:3.5.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

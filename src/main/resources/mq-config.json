@@ -1,0 +1,21 @@
+{
+  "host": "localhost",
+  "user": "chaunn",
+  "port": 5672,
+  "password": "1@3Pikachu",
+  "virtualHost": "chaunn",
+  "connectionTimeout": 5000,
+  //in miliseconds
+  "requestedHeartbeat": 60,
+  //in seconds
+  "handshakeTimeout": 60,
+  //in seconds
+  "requestedChannelMax": 5,
+  "networkRecoveryInterval": 5,
+  //in seconds
+  "automaticRecoveryEnabled": true,
+  "basicQos": 20,
+  // times to retry
+  "timeToLive": 200
+  // time for each retry
+}
